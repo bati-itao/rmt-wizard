@@ -13,8 +13,9 @@
     <meta name="description" content="IT Accessibility Office provides adaptive technology and advocate for inclusiveness of people with disabilities in the workplace.">
     <!-- Meta data-->
     <!-- Load closure template scripts -->
-    <script src="https://ssl-templates.services.gc.ca/rn/cls/wet/gcweb/cdts/compiled/soyutils.js"></script>
-    <script src="https://ssl-templates.services.gc.ca/rn/cls/wet/gcweb/cdts/compiled/wet-en.js"></script>
+	<script src="https://www.canada.ca/etc/designs/canada/cdts/gcweb/rn/cdts/compiled/soyutils.js"></script>
+	<script src="https://www.canada.ca/etc/designs/canada/cdts/gcweb/rn/cdts/compiled/wet-en.js"></script>
+
     <!-- Write closure template -->
     <script src="https://bati-itao.github.io/scripts/refTop.min.js"></script>
 </head>
@@ -27,14 +28,14 @@
         var defTop = document.getElementById("def-top");
         defTop.outerHTML = wet.builder.appTop({
             "appName": [{
-                "text": "ESDC / IT Accessibility office",
-                "href": "https://bati-itao.github.io/index-en.html"
+                "text" : "ESDC / IT Accessibility office",
+                "href" : "https://bati-itao.github.io/index-en.html"
             }],
             "breadcrumbs": [{
-                "title": "Home",
-                "href": "https://bati-itao.github.io/index-en.html"
-            }]
-            "menuPath": "https://bati-itao.github.io/ajax/menu-en.html"
+                "title" : "Home",
+                "href" : "https://bati-itao.github.io/index-en.html"
+            }],
+            "menuPath" : "https://bati-itao.github.io/ajax/menu-en.html"
         });
     </script>
     <main property="mainContentOfPage" class="container">
@@ -43,21 +44,51 @@
         <p>A mockup for the step by step form for the Rerquest Management Tool</p>
         <div class="wb-frmvld">
             <form method="get">
-                <div class="wb-fieldflow" data-wb-fieldflow='{"noForm": true}'>
+                <div class="wb-fieldflow" data-wb-fieldflow='{ "noForm": true}'>
 
                     <p>What topic / product do you need help with?</p>
 
                     <ul>
-                        <li data-wb-fieldflow='[{"action": "append", "source": "#toggle-1", "live": true}, {"action" : "query", "name" : "What topic / product do you need help with?"}]'>Accessibility Compliance Project (ACP)</li>
-                        <li data-wb-fieldflow='[{"action": "append", "source": "#toggle-2", "live": true}, {"action" : "query", "name" : "What topic / product do you need help with?"}]'>ICT accessibility audit</li>
-                        <li data-wb-fieldflow='[{"action": "append", "source": "#toggle-3", "live": true}, {"action" : "query", "name" : "What topic / product do you need help with?"}]'>Documents accessibility audit</li>
-                        <li data-wb-fieldflow='[{"action": "append", "source": "#toggle-4", "live": true}, {"action" : "query", "name" : "What topic / product do you need help with?"}]'>Enterprise Project Management Office (EPMO)</li>
-                        <li data-wb-fieldflow='[{"action": "append", "source": "#toggle-5", "live": true}, {"action" : "query", "name" : "What topic / product do you need help with?"}]'>Procurement</li>
-                        <li data-wb-fieldflow='[{"action": "append", "source": "#toggle-6", "live": true}, {"action" : "query", "name" : "What topic / product do you need help with?"}]'>Advice and recommendations</li>
-                        <li data-wb-fieldflow='[{"action": "append", "source": "#toggle-7", "live": true}, {"action" : "query", "name" : "What topic / product do you need help with?"}]'>Accessibility aoaching / Session</li>
-                        <li data-wb-fieldflow='[{"action": "append", "source": "#toggle-8", "live": true}, {"action" : "query", "name" : "What topic / product do you need help with?"}]'>Disability Asscssment Consultation</li>
-                        <li data-wb-fieldflow='[{"action": "append", "source": "#toggle-9", "live": true}, {"action" : "query", "name" : "What topic / product do you need help with?"}]'>Assistive adaptive technology support</li>
-                        <li data-wb-fieldflow='[{"action": "append", "source": "#toggle-10", "live": true}, {"action" : "query", "name" : "What topic / product do you need help with?"}]'>Loan bank</li>
+						<li data-wb-fieldflow='[
+							{ "action" : "append", "source" : "#toggle-1", "live": true},
+							{ "action" : "query", "name" : "What topic / product do you need help with?" }
+						]'>Accessibility Compliance Project (ACP)</li>
+						<li data-wb-fieldflow='[
+							{ "action" : "append", "source" : "#toggle-2", "live": true},
+							{ "action" : "query", "name" : "What topic / product do you need help with?" }
+						]'>ICT accessibility audit</li>
+						<li data-wb-fieldflow='[
+							{ "action" : "append", "source" : "#toggle-3", "live": true},
+							{ "action" : "query", "name" : "What topic / product do you need help with?" }
+						]'>Documents accessibility audit</li>
+						<li data-wb-fieldflow='[
+							{ "action" : "append", "source" : "#toggle-4", "live": true},
+							{ "action" : "query", "name" : "What topic / product do you need help with?" }
+						]'>Enterprise Project Management Office (EPMO)</li>
+						<li data-wb-fieldflow='[
+							{ "action" : "append", "source" : "#toggle-5", "live": true},
+							{ "action" : "query", "name" : "What topic / product do you need help with?" }
+						]'>Procurement</li>
+						<li data-wb-fieldflow='[
+							{ "action" : "append", "source" : "#toggle-6", "live": true},
+							{ "action" : "query", "name" : "What topic / product do you need help with?" }
+						]'>Advice and recommendations</li>
+						<li data-wb-fieldflow='[
+							{ "action" : "append", "source" : "#toggle-7", "live": true},
+							{ "action" : "query", "name" : "What topic / product do you need help with?" }
+						]'>Accessibility aoaching / Session</li>
+						<li data-wb-fieldflow='[
+							{ "action" : "append", "source" : "#toggle-8", "live": true},
+							{ "action" : "query", "name" : "What topic / product do you need help with?" }
+						]'>Disability Asscssment Consultation</li>
+						<li data-wb-fieldflow='[
+							{ "action" : "append", "source" : "#toggle-9", "live": true},
+							{ "action" : "query", "name" : "What topic / product do you need help with?" }
+						]'>Assistive adaptive technology support</li>
+						<li data-wb-fieldflow='[
+							{ "action" : "append", "source" : "#toggle-10", "live": true},
+							{ "action" : "query", "name" : "What topic / product do you need help with?" }
+						]'>Loan bank</li>
                     </ul>
 
 					<!-- Accessibility Compliance Project -->
@@ -66,14 +97,38 @@
 
                         <p>Which of the choices below best describes your request?</p>
                         <ul>
-                            <li data-wb-fieldflow='[{"action": "toggle", "toggle": "#continue", "live": true}, {"action" : "query", "name" : "Which of the choices below best describes your request?"}]'>Change in application / COTS ownership</li>
-                            <li data-wb-fieldflow='[{"action": "toggle", "toggle": "#continue", "live": true}, {"action" : "query", "name" : "Which of the choices below best describes your request?"}]'>Cost estimates</li>
-                            <li data-wb-fieldflow='[{"action": "toggle", "toggle": "#continue", "live": true}, {"action" : "query", "name" : "Which of the choices below best describes your request?"}]'>Information</li>
-                            <li data-wb-fieldflow='[{"action": "toggle", "toggle": "#continue", "live": true}, {"action" : "query", "name" : "Which of the choices below best describes your request?"}]'>Project plans</li>
-                            <li data-wb-fieldflow='[{"action": "toggle", "toggle": "#continue", "live": true}, {"action" : "query", "name" : "Which of the choices below best describes your request?"}]'>Project status</li>
-                            <li data-wb-fieldflow='[{"action": "toggle", "toggle": "#continue", "live": true}, {"action" : "query", "name" : "Which of the choices below best describes your request?"}]'>Project standards</li>
-                            <li data-wb-fieldflow='[{"action": "toggle", "toggle": "#continue", "live": true}, {"action" : "query", "name" : "Which of the choices below best describes your request?"}]'>Subscribe / Unsubscribe from distribution lists</li>
-                            <li data-wb-fieldflow='[{"action": "toggle", "toggle": "#continue, #comment", "live": true}, {"action" : "query", "name" : "Which of the choices below best describes your request?"}]'>The choices listed do not match my request.</li>
+							<li data-wb-fieldflow='[
+								{ "action" : "toggle", "toggle" : "#continue", "live": true},
+								{ "action" : "query", "name" : "Which of the choices below best describes your request?" }
+							]'>Change in application / COTS ownership</li>
+							<li data-wb-fieldflow='[
+								{ "action" : "toggle", "toggle" : "#continue", "live": true},
+								{ "action" : "query", "name" : "Which of the choices below best describes your request?" }
+							]'>Cost estimates</li>
+							<li data-wb-fieldflow='[
+								{ "action" : "toggle", "toggle" : "#continue", "live": true},
+								{ "action" : "query", "name" : "Which of the choices below best describes your request?" }
+							]'>Information</li>
+							<li data-wb-fieldflow='[
+								{ "action" : "toggle", "toggle" : "#continue", "live": true},
+								{ "action" : "query", "name" : "Which of the choices below best describes your request?" }
+							]'>Project plans</li>
+							<li data-wb-fieldflow='[
+								{ "action" : "toggle", "toggle" : "#continue", "live": true},
+								{ "action" : "query", "name" : "Which of the choices below best describes your request?" }
+							]'>Project status</li>
+							<li data-wb-fieldflow='[
+								{ "action" : "toggle", "toggle" : "#continue", "live": true},
+								{ "action" : "query", "name" : "Which of the choices below best describes your request?" }
+							]'>Project standards</li>
+							<li data-wb-fieldflow='[
+								{ "action" : "toggle", "toggle" : "#continue", "live": true},
+								{ "action" : "query", "name" : "Which of the choices below best describes your request?" }
+							]'>Subscribe / Unsubscribe from distribution lists</li>
+							<li data-wb-fieldflow='[
+								{ "action" : "toggle", "toggle" : "#continue, #comment", "live": true},
+								{ "action" : "query", "name" : "Which of the choices below best describes your request?" }
+							]'>The choices listed do not match my request.</li>
                         </ul>
                     </div>
 
@@ -83,9 +138,18 @@
 
                         <p>Which of the choices below best describes your request?</p>
                         <ul>
-                            <li data-wb-fieldflow='[{"action": "append", "source": "#toggle-21", "live": true}, {"action": "query", "name":"ICT Accessibility Audit"}]'>Software applications</li>
-                            <li data-wb-fieldflow='[{"action": "append", "source": "#toggle-21", "live": true}, {"action": "query", "name":"ICT Accessibility Audit"}]'>Websites / Web applications</li>
-                            <li data-wb-fieldflow='[{"action": "toggle", "toggle": "#comment, #continue", "live": true}, {"action": "query", "name":"ICT Accessibility Audit"}]'>The choices listed do not match my request.</li>
+							<li data-wb-fieldflow='[
+								{ "action" : "append", "source" : "#toggle-21", "live": true},
+								{ "action" : "query", "name":"ICT Accessibility Audit" }
+							]'>Software applications</li>
+							<li data-wb-fieldflow='[
+								{ "action" : "append", "source" : "#toggle-21", "live": true},
+								{ "action" : "query", "name":"ICT Accessibility Audit" }
+							]'>Websites / Web applications</li>
+							<li data-wb-fieldflow='[
+								{ "action" : "toggle", "toggle" : "#comment, #continue", "live": true},
+								{ "action" : "query", "name":"ICT Accessibility Audit" }
+							]'>The choices listed do not match my request.</li>
                         </ul>
                     </div>
 
@@ -93,8 +157,14 @@
 
                         <p>Select the type of request</p>
                         <ul>
-                            <li data-wb-fieldflow='[{"action": "append", "source": "#toggle-211", "live": true}, {"action" : "query", "name" : "Select the type of request"}]'>Audit</li>
-                            <li data-wb-fieldflow='[{"action": "append", "source": "#toggle-221", "live": true}, {"action" : "query", "name" : "Select the type of request"}]'>Re-audit</li>
+							<li data-wb-fieldflow='[
+								{ "action" : "append", "source" : "#toggle-211", "live": true},
+								{ "action" : "query", "name" : "Select the type of request" }
+							]'>Audit</li>
+							<li data-wb-fieldflow='[
+								{ "action" : "append", "source" : "#toggle-221", "live": true},
+								{ "action" : "query", "name" : "Select the type of request" }
+							]'>Re-audit</li>
                         </ul>
 					</div>
 					
@@ -104,36 +174,34 @@
 
                         <p>Do you have all the information required for the audit?</p>
                         <ul>
-                            <li data-wb-fieldflow='[{"action": "toggle", "toggle": "#toggle-211-yes, #continue", "live": true}, {"action" : "query", "name" : "Do you have all the information required for the audit?"}]'>Yes</li>
-                            <li data-wb-fieldflow='[{"action": "toggle", "toggle": "#toggle-211-no, #continue", "live": true}, {"action" : "query", "name" : "Do you have all the information required for the audit?"}]'>No</li>
-                        </ul>
+							<li data-wb-fieldflow='[
+								{ "action" : "toggle", "toggle" : "#ict-audit-yes, #continue", "live": true},
+								{ "action" : "query", "name" : "Do you have all the information required for the audit?" }
+							]'>Yes</li>
+							<li data-wb-fieldflow='[
+								{ "action" : "toggle", "toggle" : "#ict-audit-no, #continue", "live": true},
+								{ "action" : "query", "name" : "Do you have all the information required for the audit?" }
+							]'>No</li>
+						</ul>
+						
+                    </div>
 
-                        <div id="toggle-211-yes" class="hidden">
-                            <p>Please email us the information required for the audit</p>
-                            <a role="button" href="mailto:EDSC.SVTIC-ICTAS.A11Y.ESDC@hrsdc-rhdcc.gc.ca?subject=RMT%23:%20Title&body=DON'T%20FORGET%20TO%20ATTACH%20DOCUMENT" class="btn btn-primary btn-lg btn-block">Send email now</a>
-                        </div>
-                        <div id="toggle-211-no" class="hidden">
-                            <p>A technician will contact you to gather information required for the audit</p>
-                        </div>
-					</div>
-					
 					<!-- Re-audit -->
 
                     <div id="toggle-221" class="hidden">
 
                         <p>Have you corrected all mentioned failures from the previous audit?</p>
                         <ul>
-                            <li data-wb-fieldflow='[{"action": "toggle", "toggle": "#toggle-221-yes, #continue", "live": true}, {"action" : "query", "name" : "Have you corrected all mentioned failures from the previous audit?"}]'>Yes</li>
-                            <li data-wb-fieldflow='[{"action": "toggle", "toggle": "#toggle-221-no, #continue", "live": true}, {"action" : "query", "name" : "Have you corrected all mentioned failures from the previous audit?"}]'>No</li>
+							<li data-wb-fieldflow='[
+								{ "action" : "toggle", "toggle" : "#ict-audit-yes, #continue", "live": true},
+								{ "action" : "query", "name" : "Have you corrected all mentioned failures from the previous audit?" }
+							]'>Yes</li>
+							<li data-wb-fieldflow='[
+								{ "action" : "toggle", "toggle" : "#ict-audit-no, #continue", "live": true},
+								{ "action" : "query", "name" : "Have you corrected all mentioned failures from the previous audit?" }
+							]'>No</li>
                         </ul>
-                        <div id="toggle-221-yes" class="hidden">
-                            <p>Please email us the information required for the audit</p>
-                            <a role="button" href="mailto:EDSC.SVTIC-ICTAS.A11Y.ESDC@hrsdc-rhdcc.gc.ca?subject=RMT%23:%20Title&body=DON'T%20FORGET%20TO%20ATTACH%20DOCUMENT" class="btn btn-primary btn-lg btn-block">Send email now</a>
-                        </div>
-                        <div id="toggle-221-no" class="hidden">
-                            <p>Please correct all failures before re-submitting for an audit.</p>
-                        </div>
-                    </div>
+					</div>
 
                     <!-- Documents Accessibility Audit -->
 
@@ -141,12 +209,30 @@
 
                         <p>Which of the choices below best describes your request?</p>
                         <ul>
-                            <li data-wb-fieldflow='[{"action": "append", "source": "#toggle-31", "live": true}, {"action" : "query", "name" : "Which of the choices below best describes your request?"}]'>Microsoft Word documents</li>
-                            <li data-wb-fieldflow='[{"action": "append", "source": "#toggle-31", "live": true}, {"action" : "query", "name" : "Which of the choices below best describes your request?"}]'>Microsoft Excel documents</li>
-                            <li data-wb-fieldflow='[{"action": "append", "source": "#toggle-31", "live": true}, {"action" : "query", "name" : "Which of the choices below best describes your request?"}]'>Microsoft PowerPoint presentations</li>
-                            <li data-wb-fieldflow='[{"action": "append", "source": "#toggle-31", "live": true}, {"action" : "query", "name" : "Which of the choices below best describes your request?"}]'>Emails</li>
-                            <li data-wb-fieldflow='[{"action": "append", "source": "#toggle-31", "live": true}, {"action" : "query", "name" : "Which of the choices below best describes your request?"}]'>PDF documents</li>
-                            <li data-wb-fieldflow='[{"action": "toggle", "toggle": "#comment, #continue", "live": true}, {"action" : "query", "name" : "Which of the choices below best describes your request?"}]'>The choices listed do not match my request.</li>
+							<li data-wb-fieldflow='[
+								{ "action" : "append", "source" : "#toggle-31", "live": true},
+								{ "action" : "query", "name" : "Which of the choices below best describes your request?" }
+							]'>Microsoft Word documents</li>
+							<li data-wb-fieldflow='[
+								{ "action" : "append", "source" : "#toggle-31", "live": true},
+								{ "action" : "query", "name" : "Which of the choices below best describes your request?" }
+							]'>Microsoft Excel documents</li>
+							<li data-wb-fieldflow='[
+								{ "action" : "append", "source" : "#toggle-31", "live": true},
+								{ "action" : "query", "name" : "Which of the choices below best describes your request?" }
+							]'>Microsoft PowerPoint presentations</li>
+							<li data-wb-fieldflow='[
+								{ "action" : "append", "source" : "#toggle-31", "live": true},
+								{ "action" : "query", "name" : "Which of the choices below best describes your request?" }
+							]'>Emails</li>
+							<li data-wb-fieldflow='[
+								{ "action" : "append", "source" : "#toggle-31", "live": true},
+								{ "action" : "query", "name" : "Which of the choices below best describes your request?" }
+							]'>PDF documents</li>
+							<li data-wb-fieldflow='[
+								{ "action" : "toggle", "toggle" : "#comment, #continue", "live": true},
+								{ "action" : "query", "name" : "Which of the choices below best describes your request?" }
+							]'>The choices listed do not match my request.</li>
                         </ul>
                     </div>
 
@@ -154,57 +240,68 @@
 
                         <p>Select the type of request</p>
                         <ul>
-                            <li data-wb-fieldflow='[{"action": "append", "source": "#toggle-311", "live": true}, {"action" : "query", "name" : "Select the type of request"}]'>Audit</li>
-                            <li data-wb-fieldflow='[{"action": "append", "source": "#toggle-321", "live": true}, {"action" : "query", "name" : "Select the type of request"}]'>Re-audit</li>
+							<li data-wb-fieldflow='[
+								{ "action" : "append", "source" : "#toggle-311", "live": true},
+								{ "action" : "query", "name" : "Select the type of request" }
+							]'>Audit</li>
+							<li data-wb-fieldflow='[
+								{ "action" : "append", "source" : "#toggle-321", "live": true},
+								{ "action" : "query", "name" : "Select the type of request" }
+							]'>Re-audit</li>
                         </ul>
                     </div>
 
-					<!-- Audit -->
+					<!-- Document Audit -->
 
                     <div id="toggle-311" class="hidden">
 
                         <p>Have you completed the <a href="https://bati-itao.github.io/resources/ms-doc-compliance-checklist-en.html">Microsoft document checklist</a>?</p>
                         <ul>
-                            <li data-wb-fieldflow='[{"action": "toggle", "toggle": "#toggle-311-yes, #continue", "live": true}, {"action" : "query", "name" : "Have you completed the Microsoft document checklist?"}]'>Yes</li>
-                            <li data-wb-fieldflow='[{"action": "toggle", "toggle": "#toggle-311-no, #continue", "live": true}, {"action" : "query", "name" : "Have you completed the Microsoft document checklist?"}]'>No</li>
+							<li data-wb-fieldflow='[
+								{ "action" : "toggle", "toggle" : "#document-audit-yes, #continue", "live": true},
+								{ "action" : "query", "name" : "Have you completed the Microsoft document checklist?" }
+							]'>Yes</li>
+							<li data-wb-fieldflow='[
+								{ "action" : "toggle", "toggle" : "#document-audit-no, #continue", "live": true},
+								{ "action" : "query", "name" : "Have you completed the Microsoft document checklist?" }
+							]'>No</li>
                         </ul>
 
-                        <div id="toggle-311-yes" class="hidden">
-                            <p>Please email us the completed checklist and applicable document.</p>
-                            <a role="button" href="mailto:EDSC.CN.A11Y.STRAT.NC.ESDC@hrsdc-rhdcc.gc.ca?subject=RMT%23:%20Title&body=DON'T%20FORGET%20TO%20ATTACH%20DOCUMENT" class="btn btn-primary btn-lg btn-block">Send email now</a>
-                        </div>
-                        <div id="toggle-311-no" class="hidden">
-                            <p>Please complete the <a href="https://bati-itao.github.io/resources/ms-doc-compliance-checklist-en.html">Microsoft document checklist</a> before continuing.</p>
-						</div>
 						
                     </div>
 
-					<!-- Re-audit -->
+					<!-- Document Re-audit -->
 
                     <div id="toggle-321" class="hidden">
 
                         <p>Have you corrected all mentioned failures from the previous audit?</p>
                         <ul>
-                            <li data-wb-fieldflow='[{"action": "append", "source": "#toggle-321-yes, #continue", "live": true}, {"action" : "query", "name" : "Have you corrected all mentioned failures from the previous audit?"}]'>Yes</li>
-                            <li data-wb-fieldflow='[{"action": "append", "source": "#toggle-321-no, #continue", "live": true}, {"action" : "query", "name" : "Have you corrected all mentioned failures from the previous audit?"}]'>No</li>
+							<li data-wb-fieldflow='[
+								{ "action" : "toggle", "toggle" : "#document-reaudit-yes, #continue", "live": true},
+								{ "action" : "query", "name" : "Have you corrected all mentioned failures from the previous audit?" }
+							]'>Yes</li>
+							<li data-wb-fieldflow='[
+								{ "action" : "toggle", "toggle" : "#document-reaudit-no, #continue", "live": true},
+								{ "action" : "query", "name" : "Have you corrected all mentioned failures from the previous audit?" }
+							]'>No</li>
                         </ul>
-                        <div id="toggle-321-yes" class="hidden">
-                            <p>Please email us completed document for audit.</p>
-                            <a role="button" href="mailto:EDSC.CN.A11Y.STRAT.NC.ESDC@hrsdc-rhdcc.gc.ca?subject=RMT%23:%20Title&body=DON'T%20FORGET%20TO%20ATTACH%20DOCUMENT" class="btn btn-primary btn-lg btn-block">Send email now</a>
-                        </div>
-                        <div id="toggle-321-no" class="hidden">
-                            <p>Please correct all failures before re-submitting for an audit.</p>
-                        </div>
                     </div>
-
-                    <!-- Enterprise Project Management Office (EPMO) -->
+	
+	
+					<!-- Enterprise Project Management Office (EPMO) -->
 
                     <div id="toggle-4" class="hidden">
 
                         <p>Which of the choices below best describes your request?</p>
                         <ul>
-                            <li data-wb-fieldflow='[{"action": "toggle", "toggle": "#continue", "live": true}, {"action" : "query", "name" : "Which of the choices below best describes your request?"}]'>Project consultation</li>
-                            <li data-wb-fieldflow='[{"action": "append", "source": "#continue, #comment", "live": true}, {"action" : "query", "name" : "Which of the choices below best describes your request?"}]'>The choices listed do not match my request.</li>
+							<li data-wb-fieldflow='[
+								{ "action" : "toggle", "toggle" : "#continue", "live": true},
+								{ "action" : "query", "name" : "Which of the choices below best describes your request?" }
+							]'>Project consultation</li>
+							<li data-wb-fieldflow='[
+								{ "action" : "append", "source" : "#continue, #comment", "live": true},
+								{ "action" : "query", "name" : "Which of the choices below best describes your request?" }
+							]'>The choices listed do not match my request.</li>
                         </ul>
                     </div>
 
@@ -214,114 +311,248 @@
 
                         <p>Which of the choices below best describes your request?</p>
                         <ul>
-                            <li data-wb-fieldflow='[{"action": "toggle", "toggle": "#continue", "live": true}, {"action" : "query", "name" : "Which of the choices below best describes your request?"}]'>Procurement guideline</li>
-                            <li data-wb-fieldflow='[{"action": "append", "source": "#continue, #comment", "live": true}, {"action" : "query", "name" : "Which of the choices below best describes your request?"}]'>The choices listed do not match my request.</li>
+							<li data-wb-fieldflow='[
+								{ "action" : "toggle", "toggle" : "#continue", "live": true},
+								{ "action" : "query", "name" : "Which of the choices below best describes your request?" }
+							]'>Procurement guideline</li>
+							<li data-wb-fieldflow='[
+								{ "action" : "append", "source" : "#continue, #comment", "live": true},
+								{ "action" : "query", "name" : "Which of the choices below best describes your request?" }
+							]'>The choices listed do not match my request.</li>
 
                         </ul>
                     </div>
-                </div>
 
-                <!-- Advice and Recommendations -->
+					<!-- Advice and Recommendations -->
 
-                <div id="toggle-6" class="hidden">
+					<div id="toggle-6" class="hidden">
 
-                    <p>Which of the choices below best describes your request?</p>
-                    <ul>
-                        <li data-wb-fieldflow='[{"action": "toggle", "toggle": "#continue", "live": true}, {"action" : "query", "name" : "Which of the choices below best describes your request?"}]'>Procurement guidelines</li>
-                        <li data-wb-fieldflow='[{"action": "toggle", "toggle": "#continue", "live": true}, {"action" : "query", "name" : "Which of the choices below best describes your request?"}]'>ICT design and development</li>
-                        <li data-wb-fieldflow='[{"action": "append", "source": "#continue, #comment", "live": true}, {"action" : "query", "name" : "Which of the choices below best describes your request?"}]'>The choices listed do not match my request.</li>
-                    </ul>
-                </div>
+						<p>Which of the choices below best describes your request?</p>
+						<ul>
+							<li data-wb-fieldflow='[
+								{ "action" : "toggle", "toggle" : "#continue", "live": true},
+								{ "action" : "query", "name" : "Which of the choices below best describes your request?" }
+							]'>Procurement guidelines</li>
+							<li data-wb-fieldflow='[
+								{ "action" : "toggle", "toggle" : "#continue", "live": true},
+								{ "action" : "query", "name" : "Which of the choices below best describes your request?" }
+							]'>ICT design and development</li>
+							<li data-wb-fieldflow='[
+								{ "action" : "append", "source" : "#continue, #comment", "live": true},
+								{ "action" : "query", "name" : "Which of the choices below best describes your request?" }
+							]'>The choices listed do not match my request.</li>
+						</ul>
+					</div>
 
-                <!-- Accessibility Coaching / Session -->
+					<!-- Accessibility Coaching / Session -->
 
-                <div id="toggle-7" class="hidden">
+					<div id="toggle-7" class="hidden">
 
-                    <p>Which of the choices below best describes your request?</p>
-                    <ul>
-                        <li data-wb-fieldflow='[{"action": "toggle", "toggle": "#continue", "live": true}, {"action" : "query", "name" : "Which of the choices below best describes your request?"}]'>Accessibility learning curriculum</li>
-                        <li data-wb-fieldflow='[{"action": "toggle", "toggle": "#continue", "live": true}, {"action" : "query", "name" : "Which of the choices below best describes your request?"}]'>ICT developer coaching</li>
-                        <li data-wb-fieldflow='[{"action": "toggle", "toggle": "#continue", "live": true}, {"action" : "query", "name" : "Which of the choices below best describes your request?"}]'> Manager coaching</li>
-                        <li data-wb-fieldflow='[{"action": "toggle", "toggle": "#continue", "live": true}, {"action" : "query", "name" : "Which of the choices below best describes your request?"}]'>PDF documents coaching</li>
-                        <li data-wb-fieldflow='[{"action": "toggle", "toggle": "#continue", "live": true}, {"action" : "query", "name" : "Which of the choices below best describes your request?"}]'>Microsoft documents coaching</li>
-                        <li data-wb-fieldflow='[{"action": "toggle", "toggle": "#continue", "live": true}, {"action" : "query", "name" : "Which of the choices below best describes your request?"}]'>Assistive adaptive technology coaching</li>
-                        <li data-wb-fieldflow='[{"action": "append", "source": "#continue, #comment", "live": true}, {"action" : "query", "name" : "Which of the choices below best describes your request?"}]'>The choices listed do not match my request.</li>
+						<p>Which of the choices below best describes your request?</p>
+						<ul>
+							<li data-wb-fieldflow='[
+								{ "action" : "toggle", "toggle" : "#continue", "live": true},
+								{ "action" : "query", "name" : "Which of the choices below best describes your request?" }
+							]'>Accessibility learning curriculum</li>
+							<li data-wb-fieldflow='[
+								{ "action" : "toggle", "toggle" : "#continue", "live": true},
+								{ "action" : "query", "name" : "Which of the choices below best describes your request?" }
+							]'>ICT developer coaching</li>
+							<li data-wb-fieldflow='[
+								{ "action" : "toggle", "toggle" : "#continue", "live": true},
+								{ "action" : "query", "name" : "Which of the choices below best describes your request?" }
+							]'> Manager coaching</li>
+							<li data-wb-fieldflow='[
+								{ "action" : "toggle", "toggle" : "#continue", "live": true},
+								{ "action" : "query", "name" : "Which of the choices below best describes your request?" }
+							]'>PDF documents coaching</li>
+							<li data-wb-fieldflow='[
+								{ "action" : "toggle", "toggle" : "#continue", "live": true},
+								{ "action" : "query", "name" : "Which of the choices below best describes your request?" }
+							]'>Microsoft documents coaching</li>
+							<li data-wb-fieldflow='[
+								{ "action" : "toggle", "toggle" : "#continue", "live": true},
+								{ "action" : "query", "name" : "Which of the choices below best describes your request?" }
+							]'>Assistive adaptive technology coaching</li>
+							<li data-wb-fieldflow='[
+								{ "action" : "append", "source" : "#continue, #comment", "live": true},
+								{ "action" : "query", "name" : "Which of the choices below best describes your request?" }
+							]'>The choices listed do not match my request.</li>
 
-                    </ul>
-                </div>
+						</ul>
+					</div>
 
-                <!-- Disability Assessment Consultation -->
+					<!-- Disability Assessment Consultation -->
 
-                <div id="toggle-8" class="hidden">
+					<div id="toggle-8" class="hidden">
 
-                    <p>Which of the choices below best describes your request?</p>
-                    <ul>
-                        <li data-wb-fieldflow='[{"action": "toggle", "toggle": "#continue", "live": true}, {"action" : "query", "name" : "Which of the choices below best describes your request?"}]'>Blindness / Low vision</li>
-                        <li data-wb-fieldflow='[{"action": "toggle", "toggle": "#continue", "live": true}, {"action" : "query", "name" : "Which of the choices below best describes your request?"}]'>Cognitive disability</li>
-                        <li data-wb-fieldflow='[{"action": "toggle", "toggle": "#continue", "live": true}, {"action" : "query", "name" : "Which of the choices below best describes your request?"}]'>Deafness / Hard of hearing</li>
-                        <li data-wb-fieldflow='[{"action": "toggle", "toggle": "#continue", "live": true}, {"action" : "query", "name" : "Which of the choices below best describes your request?"}]'>Mobility</li>
-                        <li data-wb-fieldflow='[{"action": "append", "source": "#continue, #comment", "live": true}, {"action" : "query", "name" : "Which of the choices below best describes your request?"}]'>The choices listed do not match my request.</li>
-                    </ul>
-                </div>
+						<p>Which of the choices below best describes your request?</p>
+						<ul>
+							<li data-wb-fieldflow='[
+								{ "action" : "toggle", "toggle" : "#continue", "live": true},
+								{ "action" : "query", "name" : "Which of the choices below best describes your request?" }
+							]'>Blindness / Low vision</li>
+							<li data-wb-fieldflow='[
+								{ "action" : "toggle", "toggle" : "#continue", "live": true},
+								{ "action" : "query", "name" : "Which of the choices below best describes your request?" }
+							]'>Cognitive disability</li>
+							<li data-wb-fieldflow='[
+								{ "action" : "toggle", "toggle" : "#continue", "live": true},
+								{ "action" : "query", "name" : "Which of the choices below best describes your request?" }
+							]'>Deafness / Hard of hearing</li>
+							<li data-wb-fieldflow='[
+								{ "action" : "toggle", "toggle" : "#continue", "live": true},
+								{ "action" : "query", "name" : "Which of the choices below best describes your request?" }
+							]'>Mobility</li>
+							<li data-wb-fieldflow='[
+								{ "action" : "append", "source" : "#continue, #comment", "live": true},
+								{ "action" : "query", "name" : "Which of the choices below best describes your request?" }
+							]'>The choices listed do not match my request.</li>
+						</ul>
+					</div>
 
-                <!-- Assistive Adaptive Technology Support -->
+					<!-- Assistive Adaptive Technology Support -->
 
-                <div id="toggle-9" class="hidden">
+					<div id="toggle-9" class="hidden">
 
-                    <p>Which of the choices below best describes your request?</p>
-                    <ul>
-                        <li data-wb-fieldflow='[{"action": "append", "source": "#toggle-71", "live": true}, {"action" : "query", "name" : "Which of the choices below best describes your request?"}]'>OpenBook</li>
-                        <li data-wb-fieldflow='[{"action": "append", "source": "#toggle-71", "live": true}, {"action" : "query", "name" : "Which of the choices below best describes your request?"}]'>TextAloud</li>
-                        <li data-wb-fieldflow='[{"action": "append", "source": "#toggle-71", "live": true}, {"action" : "query", "name" : "Which of the choices below best describes your request?"}]'>ZoomText for Windows</li>
-                        <li data-wb-fieldflow='[{"action": "append", "source": "#toggle-71", "live": true}, {"action" : "query", "name" : "Which of the choices below best describes your request?"}]'>J-Say</li>
-                        <li data-wb-fieldflow='[{"action": "append", "source": "#toggle-71", "live": true}, {"action" : "query", "name" : "Which of the choices below best describes your request?"}]'>Kurzweil 300</li>
-                        <li data-wb-fieldflow='[{"action": "append", "source": "#toggle-71", "live": true}, {"action" : "query", "name" : "Which of the choices below best describes your request?"}]'>Scribe Médialexie</li>
-                        <li data-wb-fieldflow='[{"action": "append", "source": "#toggle-71", "live": true}, {"action" : "query", "name" : "Which of the choices below best describes your request?"}]'>wordQ & speakQ</li>
-                        <li data-wb-fieldflow='[{"action": "append", "source": "#toggle-71", "live": true}, {"action" : "query", "name" : "Which of the choices below best describes your request?"}]'>Dragon Medical Practice</li>
-                        <li data-wb-fieldflow='[{"action": "append", "source": "#toggle-71", "live": true}, {"action" : "query", "name" : "Which of the choices below best describes your request?"}]'>Dragon Natuarally Speaking Professional Edition</li>
-                        <li data-wb-fieldflow='[{"action": "append", "source": "#toggle-71", "live": true}, {"action" : "query", "name" : "Which of the choices below best describes your request?"}]'>WorkSAfe Sam</li>
-                        <li data-wb-fieldflow='[{"action": "append", "source": "#continue, #comment", "live": true}, {"action" : "query", "name" : "Which of the choices below best describes your request?"}]'>The choices listed do not match my request.</li>
-                    </ul>
-                </div>
+						<p>Which of the choices below best describes your request?</p>
+						<ul>
+							<li data-wb-fieldflow='[
+								{ "action" : "append", "source" : "#toggle-71", "live": true},
+								{ "action" : "query", "name" : "Which of the choices below best describes your request?" }
+							]'>OpenBook</li>
+							<li data-wb-fieldflow='[
+								{ "action" : "append", "source" : "#toggle-71", "live": true},
+								{ "action" : "query", "name" : "Which of the choices below best describes your request?" }
+							]'>TextAloud</li>
+							<li data-wb-fieldflow='[
+								{ "action" : "append", "source" : "#toggle-71", "live": true},
+								{ "action" : "query", "name" : "Which of the choices below best describes your request?" }
+							]'>ZoomText for Windows</li>
+							<li data-wb-fieldflow='[
+								{ "action" : "append", "source" : "#toggle-71", "live": true},
+								{ "action" : "query", "name" : "Which of the choices below best describes your request?" }
+							]'>J-Say</li>
+							<li data-wb-fieldflow='[
+								{ "action" : "append", "source" : "#toggle-71", "live": true},
+								{ "action" : "query", "name" : "Which of the choices below best describes your request?" }
+							]'>Kurzweil 300</li>
+							<li data-wb-fieldflow='[
+								{ "action" : "append", "source" : "#toggle-71", "live": true},
+								{ "action" : "query", "name" : "Which of the choices below best describes your request?" }
+							]'>Scribe Médialexie</li>
+							<li data-wb-fieldflow='[
+								{ "action" : "append", "source" : "#toggle-71", "live": true},
+								{ "action" : "query", "name" : "Which of the choices below best describes your request?" }
+							]'>wordQ & speakQ</li>
+							<li data-wb-fieldflow='[
+								{ "action" : "append", "source" : "#toggle-71", "live": true},
+								{ "action" : "query", "name" : "Which of the choices below best describes your request?" }
+							]'>Dragon Medical Practice</li>
+							<li data-wb-fieldflow='[
+								{ "action" : "append", "source" : "#toggle-71", "live": true},
+								{ "action" : "query", "name" : "Which of the choices below best describes your request?" }
+							]'>Dragon Natuarally Speaking Professional Edition</li>
+							<li data-wb-fieldflow='[
+								{ "action" : "append", "source" : "#toggle-71", "live": true},
+								{ "action" : "query", "name" : "Which of the choices below best describes your request?" }
+							]'>WorkSAfe Sam</li>
+							<li data-wb-fieldflow='[
+								{ "action" : "append", "source" : "#continue, #comment", "live": true},
+								{ "action" : "query", "name" : "Which of the choices below best describes your request?" }
+							]'>The choices listed do not match my request.</li>
+						</ul>
+					</div>
 
-                <div id="toggle-71" class="hidden">
+					<div id="toggle-71" class="hidden">
 
-                    <p>Type of service</p>
-                    <ul>
-                        <li data-wb-fieldflow='[{"action": "toggle", "toggle": "#continue", "live": true}, {"action" : "query", "name" : "Type of service"}]'>Installation / Removal</li>
-                        <li data-wb-fieldflow='[{"action": "toggle", "toggle": "#continue", "live": true}, {"action" : "query", "name" : "Type of service"}]'>Troubleshooting / Configuration</li>
-                        <li data-wb-fieldflow='[{"action": "append", "source": "#continue, #comment", "live": true}, {"action" : "query", "name" : "Type of service"}]'>The choices listed do not match my request.</li>
-                    </ul>
-                </div>
+						<p>Type of service</p>
+						<ul>
+							<li data-wb-fieldflow='[
+								{ "action" : "toggle", "toggle" : "#continue", "live": true},
+								{ "action" : "query", "name" : "Type of service" }
+							]'>Installation / Removal</li>
+							<li data-wb-fieldflow='[
+								{ "action" : "toggle", "toggle" : "#continue", "live": true},
+								{ "action" : "query", "name" : "Type of service" }
+							]'>Troubleshooting / Configuration</li>
+							<li data-wb-fieldflow='[
+								{ "action" : "append", "source" : "#continue, #comment", "live": true},
+								{ "action" : "query", "name" : "Type of service" }
+							]'>The choices listed do not match my request.</li>
+						</ul>
+					</div>
 
-                <!-- Loan Bank -->
+					<!-- Loan Bank -->
 
-                <div id="toggle-10" class="hidden">
+					<div id="toggle-10" class="hidden">
 
-                    <p>Which of the choices below best describes your request?</p>
-                    <ul>
-                        <li data-wb-fieldflow='[{"action": "toggle", "toggle": "#continue", "live": true}, {"action" : "query", "name" : "Which of the choices below best describes your request?"}]'>Adaptive technology hardware information</li>
-                        <li data-wb-fieldflow='[{"action": "toggle", "toggle": "#continue", "live": true}, {"action" : "query", "name" : "Which of the choices below best describes your request?"}]'>Lend/ Return</li>
-                        <li data-wb-fieldflow='[{"action": "append", "source": "#continue, #comment", "live": true}, {"action" : "query", "name" : "Which of the choices below best describes your request?"}]'>The choices listed do not match my request.</li>
-                    </ul>
-                </div>
+						<p>Which of the choices below best describes your request?</p>
+						<ul>
+							<li data-wb-fieldflow='[
+								{ "action" : "toggle", "toggle" : "#continue", "live": true},
+								{ "action" : "query", "name" : "Which of the choices below best describes your request?" }
+							]'>Adaptive technology hardware information</li>
+							<li data-wb-fieldflow='[
+								{ "action" : "toggle", "toggle" : "#continue", "live": true},
+								{ "action" : "query", "name" : "Which of the choices below best describes your request?" }
+							]'>Lend/ Return</li>
+							<li data-wb-fieldflow='[
+								{ "action" : "append", "source" : "#continue, #comment", "live": true},
+								{ "action" : "query", "name" : "Which of the choices below best describes your request?" }
+							]'>The choices listed do not match my request.</li>
+						</ul>
+					</div>
+					
+				</div>
 
-                <!-- Details -->
+				<!-- ICT Audit Yes / No -->
 
-                <div id="comment" class="form-group hidden">
-                    <label for="details">Request details</label>
-                    <textarea class="form-control full-width" name="details" id="details"></textarea>
-                </div>
+				<div id="ict-audit-yes" class="hidden">
+					<p>Please email us the information required for the audit</p>
+					<a role="button" href="mailto:EDSC.SVTIC-ICTAS.A11Y.ESDC@hrsdc-rhdcc.gc.ca?subject=RMT%23:%20Title&body=DON'T%20FORGET%20TO%20ATTACH%20DOCUMENT" class="btn btn-primary btn-lg btn-block">Send email now</a>
+				</div>
+			
+				<div id="ict-audit-no" class="hidden">
+					<p>A technician will contact you to gather information required for the audit</p>
+				</div>
 
-                <!-- Continue button -->
+				<!-- Document Audit Yes / No -->
 
-                <div class="hidden mrgn-tp-xl" id="continue">
-                    <button type="submit" class="btn btn-primary">Continue</button>
-                </div>
+				<div id="document-audit-yes" class="hidden">
+					<p>Please email us the completed checklist and applicable document.</p>
+					<a role="button" href="mailto:EDSC.CN.A11Y.STRAT.NC.ESDC@hrsdc-rhdcc.gc.ca?subject=RMT%23:%20Title&body=DON'T%20FORGET%20TO%20ATTACH%20DOCUMENT" class="btn btn-primary btn-lg btn-block">Send email now</a>
+				</div>
+				<div id="document-audit-no" class="hidden">
+					<p>Please complete the <a href="https://bati-itao.github.io/resources/ms-doc-compliance-checklist-en.html">Microsoft document checklist</a> before continuing.</p>
+				</div>
 
-        </div>
+				<!-- Document Reaudit Yes / No -->
+			
+				<div id="document-reaudit-yes" class="hidden">
+					<p>Please email us completed document for audit.</p>
+					<a role="button" href="mailto:EDSC.CN.A11Y.STRAT.NC.ESDC@hrsdc-rhdcc.gc.ca?subject=RMT%23:%20Title&body=DON'T%20FORGET%20TO%20ATTACH%20DOCUMENT" class="btn btn-primary btn-lg btn-block">Send email now</a>
+				</div>
+				<div id="document-reaudit-no" class="hidden">
+					<p>Please correct all failures before re-submitting for an audit.</p>
+				</div>
 
-        </form>
+				
+				<!-- Details -->
+
+				<div id="comment" class="form-group hidden">
+					<label for="details">Request details</label>
+					<textarea class="form-control full-width" name="details" id="details"></textarea>
+				</div>
+
+				<!-- Continue button -->
+
+				<div class="hidden mrgn-tp-xl" id="continue">
+					<button type="submit" class="btn btn-primary">Continue</button>
+				</div>
+
+
+        	</form>
         </div>
         <div id="def-preFooter"></div>
         <script src="https://bati-itao.github.io/scripts/preFooter.min.js"></script>
